@@ -1,10 +1,378 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	 <meta charset="UTF-8">
+	 <meta charset="UTF-8"/>
 	 <title>Приложение для путешественников - "Погнали"</title>
 </head>
-<body>
+<body class="page">
 
+<header class="page-header">
+	 
+	 <nav class="page-nav">
+			<div class="page-nav__wrapper">
+				 <a class="page-nav__logo logo">
+						<img class="logo__image"
+						     src="../source/img/logo_mobile.png"
+								 width="96"
+								 height="15"
+								 alt="Логотип приложения 'Погнали'"/>
+				 </a>
+				 <button class="page-nav__toggler"
+								 type="button"
+								 aria-label="Открыть / закрыть меню"></button>
+				 
+				 <ul class="page-nav__menu-list nav-list">
+						<li class="nav-list__item">
+							 <a>О сервисе</a>
+						</li>
+						<li class="nav-list__item">
+							 <a href="form.html">Направления</a>
+						</li>
+						<li class="nav-list__item">
+							 <a href="catalog.html">Попутчики</a>
+						</li>
+				 </ul>
+				 
+				 <a class="page-nav__auth-button button button--rounded"
+						href="authorization.html">Авторизация</a>
+				 
+				 <ul class="page-nav__contacts contacts">
+						<li class="contacts__item">
+							 <a class="contact-url contact-url--telephone" href="tel:+88005558628">
+									8 (800) 555-86-28
+							 </a>
+						</li>
+						<li class="contacts__item">
+							 <a class="contact-url contact-url--email"
+									href="mailto:mail@pognali.ru">
+									mail@pognali.ru
+							 </a>
+						</li>
+				 </ul>
+				 
+				 <ul class="page-nav__social socials">
+						<li class="social__item">
+							 <a class="social-link social-link--yellow social-link--fb"
+									href="#">Facebook</a>
+						</li>
+						<li class="social__item">
+							 <a class="social-link social-link--yellow social-link--vk"
+									href="#">VKontakte</a>
+						</li>
+						<li class="social__item">
+							 <a class="social-link social-link--yellow social-link--inst"
+									href="#">Instagram</a>
+						</li>
+				 </ul>
+			</div>
+	 </nav>
+	 <h1 class="page-header__title">В путешествие с крутыми попутчиками!</h1>
+</header>
+
+<main class="page__main">
+	 <section class="promo">
+			<h2 class="visually-hidden">С "Погнали?" путешествовать не скучно!</h2>
+			
+			<ul class="promo__contacts-list">
+				 <li class="promo__contacts-item">
+						<a class="promo__contacts-button contact-url contact-url--telephone" href="tel:+88005558628">8 (800) 555-86-28</a>
+				 </li>
+				 <li class="promo__contacts-item">
+						<a class="promo__contacts-button contact-url contact-url--email" href="mailto:mail@pognali.ru">mail@pognali.ru</a>
+				 </li>
+				 <li class="promo__contacts-item">
+						<a class="promo__button button button--rounded"
+							 href="authorization.html">Авторизация</a>
+				 </li>
+			</ul>
+			
+			<div class="promo__quote-wrapper">
+				 <blockquote class="promo__quote">«Лучшее приложение, что я видел в жизни!»</blockquote>
+				 <cite class="promo__quote-author">
+						Мурат Эльтазин <br>
+						главный редактор газеты «гаджетлайф»
+				 </cite>
+			</div>
+			
+			<div class="promo__instruction-wrapper">
+				 <ol class="promo__instruction-list">
+						<li class="promo__instruction-item">
+							 Выберите направление
+						</li>
+						<li class="promo__instruction-item">
+							 Изучите идеи путешественников
+						</li>
+						<li class="promo__instruction-item">
+							 Находите тех, кто похож на вас
+						</li>
+						<li class="promo__instruction-item">
+							 Путешествуйте вместе!
+						</li>
+				 </ol>
+			</div>
+	 </section>
+	 
+	 <section class="about-us">
+				 <h2 class="heading heading--h2">О сервисе</h2>
+				 
+				 <p class="text text--white">
+						Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
+				 </p>
+				 <p class="text text-white text--bold">
+						А если найдете кого-то близкого по духу — скорее зовите в совместный трип!
+				 </p>
+	 </section>
+	 
+	 <section class="directions">
+			<h2 class="heading heading--h2">Направления</h2>
+			<p class="text">
+				 Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.
+			</p>
+			<section class="directions__item directions-card">
+				 <a class="directions-card__link-wrapper">
+						<div class="directions-card__image">
+							 <img class="directions-card__picture"
+										src=""
+										alt="Путешествие в Таиланд">
+						</div>
+						<span class="directions-card__flag country-flag country-flag--th">
+							 Флаг Таиланда
+						</span>
+						<h3 class="direction-card__title">Таиланд</h3>
+						<p class="directions-card__description">Джунгли зовут!</p>
+						<p class="directions-card__users">18321</p>
+				 </a>
+			</section>
+			
+			<section class="directions__item directions-card">
+				 <a class="directions-card__link-wrapper">
+						<div class="directions-card__image">
+							 <img class="directions-card__picture"
+										src=""
+										alt="Путешествие во Францию">
+						</div>
+						<span class="directions-card__flag country-flag country-flag--fr">
+							 Флаг Франции
+						</span>
+						<h3 class="direction-card__title">Франция</h3>
+						<p class="directions-card__description">Трэ бьен, манифик!</p>
+						<p class="directions-card__users">12518</p>
+				 </a>
+			</section>
+		 
+			<section class="directions__item directions-card">
+				 <a class="directions-card__link-wrapper">
+						<div class="directions-card__image">
+							 <img class="directions-card__picture"
+										src=""
+										alt="Путешествие в Чехию">
+						</div>
+						<span class="directions-card__flag country-flag country-flag--cz">
+							 Флаг Чехии
+						</span>
+						<h3 class="direction-card__title">Чехия</h3>
+						<p class="directions-card__description">Закоулки старой Европы</p>
+						<p class="directions-card__users">5326</p>
+				 </a>
+			</section>
+			<a class="button button--squared" href="form.html"></a>
+	 </section>
+	 
+	 <section class="teammates">
+			<div class="teammates__content-wrapper">
+				 <h2 class="heading heading--h2">Попутчики</h2>
+				 <p class="text text--white">
+						Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+				 </p>
+				 <p class="text text--white text--bold">
+						Теперь можно легко найти единомышленников!
+				 </p>
+			</div>
+			
+			<section class="teammates__item teammates-preview">
+				 <div class="teammates-preview__image">
+						<img class="teammates-preview__picture"
+								 src="" alt="Таня Фирсова">
+				 </div>
+				 <span class="teammates-preview__lavel">99 level</span>
+				 <div class="teammates-preview__flags-wrapper">
+						<span class="teammates-preview__flag country-flag country-flag--lk">
+							 Флаг Шри-Ланки
+						</span>
+						<span class="teammates-preview__flag country-flag country-flag--th">
+							 Флаг Таиланда
+						</span>
+						<span class="teammates-preview__flag country-flag country-flag--sc">
+							 Флаг Сейшел
+						</span>
+				 </div>
+				 <a class="teammates-preview__link-wrapper" href="#">
+						<h3 class="teammates-preview__name teammates-preview__name--offline">
+							 Таня Фирсова
+						</h3>
+				 </a>
+				 <p class="teammates-preview__hashtags">
+						#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
+				 </p>
+				 <ul class="teammates-preview__transport-wrapper">
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--plane
+						           teammates-preview__transport--active">
+							 Самолет
+						</li>
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--bus">
+							 Автобус
+						</li>
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--bicycle">
+							 Велосипед
+						</li>
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--feet">
+							 Пешком
+						</li>
+				 </ul>
+			</section>
+		 
+			<section class="teammates__item teammates-preview">
+				 <div class="teammates-preview__image">
+						<img class="teammates-preview__picture"
+								 src="" alt="Петя Демин">
+				 </div>
+				 <span class="teammates-preview__lavel">80 level</span>
+				 <div class="teammates-preview__flags-wrapper">
+						<span class="teammates-preview__flag country-flag country-flag--de">
+							 Флаг Германии
+						</span>
+						<span class="teammates-preview__flag country-flag country-flag--cz">
+							 Флаг Чехии
+						</span>
+				 </div>
+				 <a class="teammates-preview__link-wrapper" href="#">
+						<h3 class="teammates-preview__name teammates-preview__name--offline">
+							 Петя Демин
+						</h3>
+				 </a>
+				 <p class="teammates-preview__hashtags">
+						#бургер #бар #футбол #концерт #крафт
+				 </p>
+				 <ul class="teammates-preview__transport-wrapper">
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--plane
+						           teammates-preview__transport--active">
+							 Самолет
+						</li>
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--bus
+                       teammates-preview__transport--active">
+							 Автобус
+						</li>
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--bicycle">
+							 Велосипед
+						</li>
+						<li class="teammates-preview__transport
+						           teammates-preview__transport--feet
+						           teammates-preview__transport--active">
+							 Пешком
+						</li>
+				 </ul>
+			</section>
+			<a class="teammates__button button button--squared" href="catalog.html">Показать всех</a>
+	 </section>
+	 
+	 <section class="create-profile">
+			<a class="create-profile__title-wrapper"
+				 href="create-profile.html">
+				 <h2 class="heading -heading--h2">Добавьте свой профиль</h2>
+				 <div class="create-profile__image-block"></div>
+			</a>
+			<div class="create-profile__options-wrapper">
+				 <ol class="create-profile__options-list">
+						<li class="create-profile__options-item">
+							 Базовое размещение Бесплатно
+						</li>
+						<li class="create-profile__options-item">
+							 Вывод на первых позициях 99 руб./мес
+						</li>
+						<li class="create-profile__options-item">
+							 Кастомный цвет карточки 59 руб./мес
+						</li>
+				 </ol>
+				 <a class="create-profile__business-link" href="#">
+						Показать тарифы для бизнеса
+				 </a>
+			</div>
+	 </section>
+	 
+	 <!-- Здесь будет секция с регистрацией и авторизацией -->
+	 <!-- Здесь будет секция с контактами и картой -->
+	 <section class="feedback">
+			<h2 class="heading heading--h2">Заинтересовались?</h2>
+			<p class="feedback__text text text--white">
+				 Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы? Тогда скорее
+				 <a href="#">авторизуйтесь</a>.
+			</p>
+			<form class="feedback__form"
+						method="post"
+						action="https://echo.htmlacademy.ru">
+				 <input class="feedback__email"
+								type="email"
+								name="email"
+								placeholder="E-mail"
+								aria-label="Введите ваш E-mail"/>
+				 <button class="feedback__submit" type="submit">Отправить форму</button>
+			</form>
+			<p class="feedback__text text text--white">Остались вопросы? Мы с радостью на них ответим!</p>
+			<ul class="feedback__contacts contacts">
+				 <li class="contacts__item">
+						<a class="contact-url contact-url--telephone"
+							 href="tel:+88005558628">
+							 8 (800) 555-86-28
+						</a>
+				 </li>
+				 <li class="contacts__item">
+						<a class="contact-url contact-url--email"
+							 href="mailto:mail@pognali.ru">
+							 mail@pognali.ru
+						</a>
+				 </li>
+			</ul>
+	 </section>
+	 
+	 <section class="location">
+			<h2 class="visually-hidden">Наш адрес</h2>
+			<address class="our-address">ул. Большая Конюшенная, 19/8</address>
+			<a class="location__button button button__squared button--bordered" href="#">Проложить маршрут</a>
+			<div class="location__map map">
+				 <!-- Здесь будет карта -->
+			</div>
+	 </section>
+</main>
+
+<footer class="page-footer">
+	 <a class="page-footer__logo logo">
+			<img class="logo__picture" src="" alt="">
+	 </a>
+	 <ul class="page-footer__social-list social">
+			<li class="social__item">
+				 <a class="social-button social-button--yellow social-button--fb"
+						href="" target="_blank">Facebook</a>
+			</li>
+			<li class="social__item">
+				 <a class="social-button social-button--yellow social-button--vk"
+						href="" target="_blank">VKontakte</a>
+			</li>
+			<li class="social__item">
+				 <a class="social-button social-button--yellow social-button--inst"
+						href="" target="_blank">Instagram</a>
+			</li>
+	 </ul>
+	 <div class="page-footer__bottom-wrapper">
+			<p class="page-footer__paragraph">Разработано</p>
+			<a class="page-footer__academy-logo academy-logo" target="_blank">HTML Academy</a>
+	 </div>
+</footer>
 </body>
 </html>
