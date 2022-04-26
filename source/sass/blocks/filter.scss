@@ -1,0 +1,43 @@
+.filter {
+  padding: 15px 0;
+  background-color: $special-violet-light;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.filter__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__title {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 27px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $basic-blue;
+  text-transform: uppercase;
+
+  &::before {
+    content: url("../../img/svg/filter.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 10px;
+  }
+}
+
+.filter__toggler {
+  display: block;
+  width: 17px;
+  height: 3px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../../img/svg/dots.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}

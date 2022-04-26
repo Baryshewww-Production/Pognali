@@ -1,0 +1,10 @@
+.contacts {
+  @include list-style-reset();
+  margin-top: 0;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  padding: 14px 0 13px;
+}

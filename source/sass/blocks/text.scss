@@ -1,0 +1,16 @@
+.text {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  font-style: normal;
+  color: inherit;
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--white {
+    color: $white;
+  }
+}

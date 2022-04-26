@@ -1,0 +1,12 @@
+.promo {
+  color: $white;
+  background-color: $basic-blue-dark;
+}
+
+.promo__contacts-list {
+  @include list-style-reset();
+}
+
+.promo__instruction-list {
+  @include list-style-reset();
+}

@@ -1,0 +1,12 @@
+.registration {
+  padding: 45px 0;
+  color: $white;
+  background-color: $basic-blue;
+}
+
+.registration__email::placeholder {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $special-gray-light;
+}

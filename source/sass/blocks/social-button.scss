@@ -1,0 +1,44 @@
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: $basic-yellow;
+  border-radius: 50%;
+  outline: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $basic-yellow-dark;
+  }
+
+  &:active::after {
+    opacity: 0.3;
+  }
+
+  &--fb::after {
+    background-size: 11px 21px;
+    background-image: url("../../img/svg/facebook.svg");
+  }
+
+  &--vk::after {
+    background-size: 23px 12px;
+    background-image: url("../../img/svg/vk.svg");
+  }
+
+  &--inst::after {
+    background-size: 17px 17px;
+    background-image: url("../../img/svg/instagram.svg");
+  }
+}
