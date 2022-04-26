@@ -1,0 +1,25 @@
+.our-address {
+  position: relative;
+  padding-left: 61px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  color: $basic-blue-light;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $basic-blue-dark;
+    background-image: url("../../img/svg/contacts-location.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 21px 21px;
+  }
+}

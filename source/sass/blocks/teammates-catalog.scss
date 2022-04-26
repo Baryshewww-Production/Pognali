@@ -1,0 +1,54 @@
+.teammates-catalog {
+  padding-bottom: 45px;
+}
+
+.teammates-catalog__item {
+  margin-bottom: 10px;
+}
+
+.teammates-catalog__button-show-all {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 25px;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+  font-style: normal;
+  color: $basic-blue-light;
+  text-transform: uppercase;
+}
+
+.teammates-catalog__button-text {
+  position: relative;
+  padding-left: 33px;
+
+  &::before {
+    content: url("../../img/svg/show-more-plus.svg");
+    position: absolute;
+    top: -0.5px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.teammates-catalog__controls-wrapper {
+  display: flex;
+}
+
+.teammates-catalog__control-button {
+  width: 50%;
+  height: 50px;
+  background-color: $white;
+  border: 1px solid $basic-violet-light;
+
+  &--prev {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  &--next {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}

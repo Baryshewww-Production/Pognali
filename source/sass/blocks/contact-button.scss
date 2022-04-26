@@ -1,0 +1,16 @@
+.contact-button {
+  display: flex;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  border-radius: 50%;
+
+  &--telephone {
+    background-color: $special-orange;
+  }
+
+  &--email {
+    background-color: $basic-yellow-dark;
+  }
+}

@@ -1,0 +1,26 @@
+.page-footer {
+  padding: 38px 0 20px;
+  color: $special-gray;
+  background-color: $white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.page-footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.page-footer__social-list {
+  @include list-style-reset();
+
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer__bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
